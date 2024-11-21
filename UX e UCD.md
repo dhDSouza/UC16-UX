@@ -91,6 +91,9 @@
 2. Peça que outro colega simule ser o usuário e interaja com o protótipo.
 3. Liste os feedbacks recebidos e como você ajustaria o design.
 
+>[!TIP]
+>Leia o tutorial sobre <a href="Tutorial Básico do Figma.md">Figma</a>.
+
 ---
 
 ## **5. Recursos para Estudo**
