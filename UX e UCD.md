@@ -99,11 +99,12 @@
 
 >[!NOTE]
 >Envie as atividades por e-mail para [dhs.danielsouza@gmail.com](mailto:dhs.danielsouza@gmail.com).
->Coloque no assunto Atividades <code>UCD</code> - "nome completo"
 >
+>Coloque no assunto <strong>Atividades UCD - <nome_completo></strong>
 >
 >Envie em anexo um arquivo zipado <em>(.zip)</em> com as atividade 1 e 2.
->Envie o link do projeto no <code>Figma</code>
+>
+>Envie o link do projeto no <code>Figma</code>.
 
 ---
 
