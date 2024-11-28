@@ -41,7 +41,7 @@
 - **[Google](https://www.google.com/):** Interfaces simples, como a página inicial com uma barra de pesquisa focada.
 
 **Exemplo de falha em UCD:**  
-- **[Pepsi Refresh Project](https://www.refresheverything.ca/):** Um site mal projetado que não atendia às expectativas de interação do público.
+- **[Pepsi Refresh Project](https://www.refresheverything.ca/) e [Viação Feitoria](https://www.viacaofeitoria.com.br/):** Sites mal projetados que não atendem às expectativas de interação do público.
 
 ---
 
