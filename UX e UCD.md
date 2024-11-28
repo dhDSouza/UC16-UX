@@ -67,6 +67,7 @@
 ## **4. Atividades Práticas**
 
 ### **Exercício 1: Avaliação de um Site**
+
 **Objetivo:** Identificar elementos bons e ruins de UX.  
 1. Escolha um site famoso (ex.: Netflix, YouTube, ou um e-commerce local).  
 2. Liste:
@@ -75,6 +76,7 @@
 3. Compartilhe com a turma e debata possíveis melhorias.
 
 ### **Exercício 2: Persona**
+
 **Objetivo:** Criar uma persona para guiar decisões de design.  
 1. Dê um contexto fictício: "Você está criando um aplicativo de receitas para idosos".  
 2. Crie uma **persona**, incluindo:
@@ -84,6 +86,7 @@
 3. Discuta como o design pode ser adaptado às necessidades dessa persona.
 
 ### **Exercício 3: Protótipo e Teste**
+
 **Objetivo:** Desenvolver um protótipo básico com foco em UCD.  
 1. Use ferramentas gratuitas como **Figma** ou papel e caneta para criar a interface inicial de:
    - Um app de organização pessoal.
@@ -93,6 +96,14 @@
 
 >[!TIP]
 >Leia o tutorial sobre <a href="Tutorial Básico do Figma.md">Figma</a>.
+
+>[!NOTE]
+>Envie as atividades por e-mail para [dhs.danielsouza@gmail.com](mailto:dhs.danielsouza@gmail.com).
+>Coloque no assunto Atividades <code>UCD</code> - "nome completo"
+>
+>
+>Envie em anexo um arquivo zipado <em>(.zip)</em> com as atividade 1 e 2.
+>Envie o link do projeto no <code>Figma</code>
 
 ---
 
