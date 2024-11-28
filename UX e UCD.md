@@ -38,10 +38,10 @@
 4. **Testes de usabilidade:** Observar como os usuários interagem com o design e fazer ajustes.
 
 **Exemplo real de UCD:**  
-- **Google:** Interfaces simples, como a página inicial com uma barra de pesquisa focada.
+- **[Google](https://www.google.com/):** Interfaces simples, como a página inicial com uma barra de pesquisa focada.
 
 **Exemplo de falha em UCD:**  
-- **Pepsi Refresh Project:** Um site mal projetado que não atendia às expectativas de interação do público.
+- **[Pepsi Refresh Project](https://www.refresheverything.ca/):** Um site mal projetado que não atendia às expectativas de interação do público.
 
 ---
 
