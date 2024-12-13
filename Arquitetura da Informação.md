@@ -84,6 +84,9 @@ Um **sitemap** é um mapa visual de todas as páginas do site. Ele ajuda a plane
 
 2. **Sites de Compras com Menus Desordenados** 🛍️: Muitos e-commerces têm menus sobrecarregados com categorias e subcategorias, sem um padrão claro. Isso pode confundir o usuário e fazer ele desistir de comprar.
 
+>[!TIP]
+>Assista a este [vídeo](https://www.youtube.com/watch?v=vmvSMYaV4oE) explicativo sobre `AI`.
+
 ## 7. Exercícios ✍️
 
 **Exercício 1: Análise de Arquitetura da Informação de um Site**
