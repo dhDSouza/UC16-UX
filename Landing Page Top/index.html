@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Definindo o conjunto de caracteres para o documento -->
+    <meta charset="UTF-8">
+
+    <!-- Tornando a página responsiva em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Descrição da página, importante para SEO e acessibilidade -->
+    <meta name="description" content="Landing page moderna e otimizada para performance e acessibilidade">
+
+    <!-- Nome do autor da página -->
+    <meta name="author" content="Daniel H. de Souza">
+
+    <!-- Título da página, exibido na aba do navegador -->
+    <title>Landing Page Moderna</title>
+
+    <!-- Metadados para redes sociais (Open Graph) -->
+    <meta property="og:title" content="Landing Page Moderna">
+    <meta property="og:description" content="Uma landing page rápida, responsiva e bem projetada">
+    <meta property="og:image" content="assets/images/preview.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon da página -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+
+    <!-- Conexão prévia com o Google Fonts para carregamento rápido das fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Importando a fonte "Inter" do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Link para o arquivo de estilo (CSS) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página, com informações sobre o site e navegação -->
+    <header class="header" role="banner">
+        <div class="container">
+            <h1>Landing Page Moderna</h1>
+            <!-- Menu de navegação principal -->
+            <nav role="navigation" aria-label="Menu principal">
+                <ul>
+                    <!-- Links de navegação para as seções da página -->
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main role="main">
+
+        <!-- Seção de destaque (Hero) -->
+        <section class="hero">
+            <div class="container">
+                <!-- Título de impacto -->
+                <h2>Transforme sua presença digital</h2>
+                <!-- Descrição do serviço oferecido -->
+                <p>Criação de sites modernos, rápidos e responsivos.</p>
+                <!-- Botão de call-to-action (CTA) para contato -->
+                <a href="#contato" class="btn">Entre em contato</a>
+            </div>
+        </section>
+
+        <!-- Seção 'Sobre' -->
+        <section id="sobre" class="sobre" aria-labelledby="sobre-title">
+            <div class="container">
+                <h2 id="sobre-title">Sobre Nós</h2>
+                <p>Somos especialistas em design e desenvolvimento web, criando experiências digitais impactantes.</p>
+            </div>
+        </section>
+
+        <!-- Seção de serviços -->
+        <section id="servicos" class="servicos" aria-labelledby="servicos-title">
+            <div class="container">
+                <h2 id="servicos-title">Nossos Serviços</h2>
+                <div class="grid">
+                    <!-- Cartões individuais para cada serviço -->
+                    <article class="card" aria-labelledby="servico1">
+                        <h3 id="servico1">Web Design</h3>
+                        <p>Designs modernos e responsivos para sua marca.</p>
+                    </article>
+                    <article class="card" aria-labelledby="servico2">
+                        <h3 id="servico2">SEO</h3>
+                        <p>Otimização para motores de busca e melhor ranqueamento.</p>
+                    </article>
+                    <article class="card" aria-labelledby="servico3">
+                        <h3 id="servico3">Desenvolvimento</h3>
+                        <p>Sites rápidos e otimizados para alta performance.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de contato -->
+        <section id="contato" class="contato" aria-labelledby="contato-title">
+            <div class="container">
+                <h2 id="contato-title">Fale Conosco</h2>
+                <p>Entre em contato para saber como podemos ajudar.</p>
+                <!-- Link para envio de e-mail -->
+                <a href="mailto:contato@exemplo.com" class="btn"
+                    aria-label="Enviar e-mail para contato@exemplo.com">Enviar E-mail</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; 2025 Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

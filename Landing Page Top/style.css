@@ -1,0 +1,167 @@
+/* Resetando as margens e paddings para garantir consistência entre os navegadores */
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove paddings padrão */
+    box-sizing: border-box; /* Facilita o controle do tamanho total de elementos */
+    font-family: 'Inter', sans-serif; /* Define a fonte padrão do site */
+}
+
+/* Estilos gerais do body */
+body {
+    line-height: 1.6; /* Define a altura das linhas para melhorar a legibilidade */
+    background: #f4f4f4; /* Cor de fundo clara para a página */
+    color: #222; /* Cor de texto escura para bom contraste */
+}
+
+/* Contêiner principal para centralizar o conteúdo e dar espaçamento */
+.container {
+    width: 90%; /* Ocupa 90% da largura da tela */
+    max-width: 1200px; /* Limita a largura máxima a 1200px */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+/* Estilo do cabeçalho */
+.header {
+    background: #222; /* Cor de fundo escura para o cabeçalho */
+    color: #fff; /* Texto branco */
+    padding: 15px 0; /* Espaçamento interno no cabeçalho */
+}
+
+/* Estilo do conteúdo dentro do cabeçalho */
+.header .container {
+    display: flex; /* Layout flexível para organizar os itens */
+    justify-content: space-between; /* Distribui o conteúdo com espaçamento entre os itens */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    flex-wrap: wrap; /* Permite que os itens se ajustem em diferentes linhas, se necessário */
+}
+
+/* Estilos para a lista de navegação no cabeçalho */
+.header ul {
+    list-style: none; /* Remove os pontos da lista */
+    display: flex; /* Exibe a lista como uma linha de itens */
+    flex-wrap: wrap; /* Permite que os itens da lista quebrem linha se necessário */
+}
+
+.header ul li {
+    margin-left: 20px; /* Espaçamento entre os itens da lista */
+}
+
+.header ul li a {
+    color: #fff; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo da seção hero (principal) */
+.hero {
+    background: #0056b3; /* Fundo azul forte */
+    color: white; /* Texto branco */
+    text-align: center; /* Alinha o conteúdo no centro */
+    padding: 60px 20px; /* Espaçamento interno */
+}
+
+/* Estilos para o botão da seção hero */
+.hero .btn {
+    display: inline-block; /* Exibe o botão como um bloco inline */
+    background: #fff; /* Cor de fundo branca */
+    color: #004099; /* Cor do texto azul */
+    padding: 12px 20px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-top: 15px; /* Espaçamento superior */
+}
+
+/* Estilo para a seção sobre */
+.sobre {
+    text-align: center; /* Centraliza o texto */
+    padding: 40px 20px; /* Espaçamento interno */
+    color: #333; /* Cor de texto mais suave */
+}
+
+/* Estilo para a seção de serviços */
+.servicos {
+    background: #e8e8e8; /* Fundo cinza claro */
+    padding: 50px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Grid para os cards na seção de serviços */
+.servicos .grid {
+    display: grid; /* Usando grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Cria colunas responsivas */
+    gap: 20px; /* Espaçamento entre os itens da grid */
+    margin-top: 30px; /* Espaçamento superior */
+}
+
+/* Estilo de cada card na seção de serviços */
+.card {
+    background: #ffffff; /* Cor de fundo branca */
+    color: #222; /* Cor do texto escura */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out; /* Efeito de transição suave ao passar o mouse */
+}
+
+/* Efeito de hover no card */
+.card:hover {
+    transform: translateY(-5px); /* Eleva o card para dar um efeito de destaque */
+}
+
+/* Estilo da seção de contato */
+.contato {
+    background: #0056b3; /* Fundo azul forte */
+    color: white; /* Texto branco */
+    text-align: center; /* Alinha o conteúdo no centro */
+    padding: 50px 20px; /* Espaçamento interno */
+}
+
+/* Estilo do parágrafo na seção de contato */
+.contato p {
+    margin-bottom: 20px; /* Espaçamento inferior */
+    font-size: 18px; /* Tamanho da fonte maior */
+}
+
+/* Estilo do botão na seção de contato */
+.contato .btn {
+    display: inline-block; /* Exibe o botão como bloco inline */
+    background: #fff; /* Cor de fundo branca */
+    color: #004099; /* Texto azul */
+    padding: 12px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: bold; /* Texto em negrito */
+    border: 2px solid #004099; /* Borda azul */
+}
+
+/* Estilo do rodapé */
+.footer {
+    background: #111; /* Fundo escuro para o rodapé */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px 0; /* Espaçamento interno */
+}
+
+/* Media Query para telas pequenas (como celulares) */
+@media (max-width: 768px) {
+    /* Ajusta a estrutura do cabeçalho */
+    .header .container {
+        flex-direction: column; /* Coloca os itens do cabeçalho em coluna */
+        text-align: center; /* Centraliza o conteúdo */
+    }
+
+    .header ul {
+        margin-top: 10px; /* Adiciona espaço superior */
+        padding: 0; /* Remove o padding */
+    }
+
+    .header ul li {
+        margin: 10px 10px; /* Ajusta o espaçamento entre os itens */
+    }
+
+    /* Ajusta o botão de contato para largura completa em telas menores */
+    .contato .btn {
+        width: 100%; /* Faz o botão ocupar toda a largura */
+        max-width: 300px; /* Limita a largura máxima do botão */
+    }
+}
